@@ -1,0 +1,7 @@
+Start time: 13:03:37 on Oct 04,2024
+qverilog top.sv 
+-- Compiling module top
+** Error: top.sv(28): (qverilog-13006) Could not find the package (ram_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: top.sv(66): (qverilog-2730) Undefined variable: 'number_of_transactions'.
+End time: 13:03:37 on Oct 04,2024, Elapsed time: 0:00:00
+Errors: 2, Warnings: 0
